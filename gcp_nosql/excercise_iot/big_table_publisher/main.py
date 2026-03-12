@@ -5,11 +5,11 @@ from google.cloud import pubsub_v1, bigtable
 
 # Google Cloud Configuration
 PUBSUB_PROJECT_ID = "edem-25-26"  # Project where the Pub/Sub topic is
-BIGTABLE_PROJECT_ID = "<your-project-id>"  # Project where Bigtable is
+BIGTABLE_PROJECT_ID = "miguelotti-project"  # Project where Bigtable is
 TOPIC_ID = "edem-iot-pubsub"
-SUBSCRIPTION_ID = "<edem-user>-subscription"
+SUBSCRIPTION_ID = "minaol-subscription"
 BIGTABLE_INSTANCE_ID = "edem-iot"
-BIGTABLE_TABLE_ID = "sensors_data"
+BIGTABLE_TABLE_ID = "sensor_data"
 
 # Set credentials explicitly for Pub/Sub (Project edem-25-26-mimove)
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = os.getenv("GOOGLE_APPLICATION_CREDENTIALS_PUBSUB")
