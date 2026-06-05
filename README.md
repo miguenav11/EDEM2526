@@ -30,3 +30,20 @@ The folders are structured as follows:
 **[gcp_nosql](./gcp_nosql/)**
 - [excercise_stocks](./gcp_nosql/excercise_stocks/): Excercise to use BigTable to store and query stock data
 - [excercise_iot](./gcp_nosql/excercise_iot/): Excercise to use an IoT application with Raspberry Pi and BigTable to query temperature data in real time.
+
+
+## Amazon Web Services
+
+**[aws_setup](./aws_setup/)**
+- [README.md](./aws_setup/README.md): Instructions to create an AWS account and create an EC2 instance
+- [end2end](./aws_setup/end2end/): Excercise to practice python and Cloud Products in AWS
+
+**[aws_sql](./aws_sql/)**
+- [excercise](./aws_sql/excercise): Excercise to deploy a RDS instance in AWS, create tables and insert data
+
+**[aws_datalakehouse](./aws_datalakehouse/)**
+- [excercise](./aws_datalakehouse/excercise): Excercise to practice the use of Apache Iceberg with AWS Glue and Athena
+
+**[aws_nosql](./aws_nosql/)**
+- [excercise_1](./aws_nosql/excercise_1): Excercise to practice the use of DynamoDB with Python
+- [excercise_2](./aws_nosql/excercise_2): Excercise to practice the use of DynamoDB with Python with a more complex example
